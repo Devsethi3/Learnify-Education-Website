@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify - Transformative Learning Experiences</title>
+    <meta name="description" content="Empower your future with Learnify. Explore diverse courses for personalized, accessible, and engaging online education. Join us on the journey to success!">
+    <meta name="keywords" content="online education, e-learning, courses, Learnify, learning platform, education technology">
+    <meta property="og:title" content="Learnify - Transformative Learning Experiences">
+    <meta property="og:description" content="Empower your future with Learnify. Join us on the journey to success!">
+    <meta property="og:url" content="https://devsethi3.github.io/Learnify-Education-Website/#">
+
+    <!-- =================================================================
+                            Link Custom CSS File
+    ================================================================== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- =================================================================
+                            Font Awesome CDN
+    ================================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- =================================================================
+                              Swiper JS CDN
+    ================================================================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- ============================================================ HEADER ============================================================ -->
+    <header class="header" id="header">
+        <nav class="navbar container flexitem">
+            <a href="#"><img src="assets/images/logo-dark.png" alt="" width="180" class="nav-logo-img"></a>
+            <div class="nav-menu" id="nav-menu">
+                <i class="fa-solid fa-xmark" id="nav-close"></i>
+                <ul class="nav-list flexitem">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#popular" class="nav-link">Courses</a></li>
+                    <li><a href="#learn" class="nav-link">About</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#members" class="nav-link">Members</a></li>
+                    <li><a href="#faq" class="nav-link">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="nav-action flexitem">
+                <i class="fa-solid fa-magnifying-glass" id="search-toggle" title="search"></i>
+                <button class="btn nav-btn" id="login-toggle">Log In</button>
+                <button class="btn nav-btn" id="register-toggle">Sign Up</button>
+            </div>
+            <i class="fa-solid fa-bars" id="nav-toggle"></i>
+        </nav>
+    </header>
+    <!-- ============================================================ MAIN ============================================================ -->
+    <main class="main">
+        <!-- ============================================================ HOME ============================================================ -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <img src="assets/images/shooting-star.png" alt="" class="home-shape-1">
+                <img src="assets/images/idea.png" alt="" class="home-shape-2">
+                <div class="home-content">
+                    <h1 class="home-title">Welcome to <span class="span">Learnify</span> Igniting Minds, Transforming
+                        Futures</h1>
+                    <p class="home-description">
+                        Embark on a seamless learning experienced with our state of the art platform. Dive into courses
+                        crafted to inspire, challenge, and empower you for success.
+                    </p>
+                    <div class="home-action flexitem">
+                        <button class="btn">Get Started</button>
+                        <a href="#" class="home-action-btn flexitem">
+                            Learn More
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <div class="home-details flexitem">
+                        <div class="home-sub-details">
+                            <h4 class="home-details-title">25K+</h4>
+                            <p class="home-details-desc">Active Learners</p>
+                        </div>
+                        <div class="home-sub-details">
+                            <h4 class="home-details-title">1200+</h4>
+                            <p class="home-details-desc">Total Students</p>
+                        </div>
+                        <div class="home-sub-details">
+                            <h4 class="home-details-title">400+</h4>
+                            <p class="home-details-desc">Total Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/images/Home.png" alt="" class="home-img">
+            </div>
+            <div class="search-page" id="search-page">
+                <i class="fa-solid fa-xmark" id="search-close"></i>
+                <div class="search-box flexitem">
+                    <input type="text" class="search-input" placeholder="Search Courses, Skills...">
+                    <button class="btn search-btn">Search</button>
+                </div>
+            </div>
+            <div class="login-page" id="login-page">
+                <p class="login-close login-close-message flexitem" id="login-close"><i class="fa-solid fa-arrow-left"
+                        id="login-arrow"></i>Back To The Website</p>
+                <div class="login-wrapper-grid container grid">
+                    <i class="fa-solid fa-star" id="star-icon"></i>
+                    <div class="login-content login-mt">
+                        <h2 class="section-title">Login To Continue</h2>
+                        <p class="login-description">Log in with your data that you entered <br> during your
+                            registration
+                        </p>
+                        <form action="" class="login-form">
+                            <div class="login-form-input">
+                                <span class="login-label">Email</span>
+                                <input type="email" placeholder="Enter Your Email" class="login-input" required>
+                            </div>
+                            <div class="login-form-input">
+                                <span class="login-label">Password</span>
+                                <input type="password" placeholder="Enter Your Email" class="login-input" required>
+                            </div>
+                            <div class="login-action">
+                                <button class="btn login-btn">Log In</button>
+                            </div>
+                        </form>
+                    </div>
+                    <img src="assets/images/login.gif" alt="" class="login-img">
+                </div>
+            </div>
+            <div class="register-page" id="register-page">
+                <p class="login-close login-close-message flexitem" id="register-close"><i
+                        class="fa-solid fa-arrow-left" id="login-arrow"></i>Back To The Website</p>
+                <div class="login-wrapper-grid no-align container grid">
+                    <div class="login-content no-margin">
+                        <h2 class="section-title">Join Us and Unleash Your Learning Journey!</h2>
+                        <p class="login-description">Unlock Endless Possibilities: Sign up for a transformative learning
+                            journey</p>
+                        <form action="" class="login-form margin-1">
+                            <div class="login-form-input">
+                                <span class="login-label">Full Name</span>
+                                <input type="text" placeholder="Enter Your Full Name" class="login-input" required>
+                            </div>
+                            <div class="login-form-input">
+                                <span class="login-label">Email</span>
+                                <input type="email" placeholder="Enter Your Email" class="login-input" required>
+                            </div>
+                            <div class="login-form-input">
+                                <span class="login-label">Password</span>
+                                <input type="password" placeholder="At least 8" class="login-input" required>
+                            </div>
+                            <div class="login-action no-margin">
+                                <button class="btn login-btn">Log In</button>
+                                <button class="btn login-btn">Sign Up with <i class="fa-brands fa-google"
+                                        id="google-icon"></i></button>
+                                <button class="btn login-btn">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                    <img src="assets/images/register.gif" alt="" class="login-img no-margin">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ BRAND ============================================================ -->
+        <section class="section brand" id="brand">
+            <div class="brand-container container">
+                <h3 class="sub-heading text-center">Trusted By</h3>
+                <div class="brand-logos grid">
+                    <img src="assets/images/brand-1.png" alt="" class="brand-logo">
+                    <img src="assets/images/brand-2.png" alt="" class="brand-logo">
+                    <img src="assets/images/brand-3.png" alt="" class="brand-logo">
+                    <img src="assets/images/brand-4.png" alt="" id="small-logo" class="brand-logo">
+                    <img src="assets/images/brand-5.png" alt="" class="brand-logo">
+                    <img src="assets/images/brand-6.png" alt="" class="brand-logo">
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================ POPULAR ============================================================ -->
+        <section class="popular section" id="popular">
+            <div class="popular-container container">
+                <h2 class="section-title border-bottom text-center">Popular Courses For You</h2>
+                <p class="popular-description text-center">
+                    Empower Your Future: Dive into our top-rated courses, carefully crafted to meet industry demands.
+                    <br> From tech to business, gain expertise with engaging content and expert guidance.
+                </p>
+                <div class="popular-courses-grid grid">
+                    <div class="popular-box">
+                        <span class="popular-head-primary">14 52s Available</span>
+                        <h3 class="popular-box-heading flexitem">Web Development <i
+                                class="fa-solid fa-arrow-up-right-from-square" id="heading-arrow"></i></h3>
+                        <p class="user-details flexitem">by<img src="assets/images/user-1.png" width="30" alt=""
+                                class="user-img">Emilly Stone</p>
+                        <p class="popular-box-description">
+                            Unleash the potential of the digital realm through our Web Development courses. From
+                            foundational languages to responsive design, acquire the skills to craft captivating
+                            websites. Explore the intricacies of coding, data bases, and frameworks, and embark on a
+                            transformative journey.
+                        </p>
+                    </div>
+
+                    <div class="popular-box">
+                        <span class="popular-head-primary">14 52s Available</span>
+                        <h3 class="popular-box-heading flexitem">UX UI Design <i
+                                class="fa-solid fa-arrow-up-right-from-square" id="heading-arrow"></i></h3>
+                        <p class="user-details flexitem">by<img src="assets/images/member-1.jpg" width="30" alt=""
+                                class="user-img">David Wills</p>
+                        <p class="popular-box-description">
+                            Embark on a creative journey with UX/UI Design courses. Uncover the principles of
+                            user-centric design, wireframing, and prototyping. From aesthetics to functionality, master
+                            the art of crafting seamless digital experiences. Join with us and transform your passion
+                            for design into a amazing career in the dynamic world of UX/UI.
+                        </p>
+                    </div>
+
+                    <div class="popular-box">
+                        <span class="popular-head-secondary">14 52s Available</span>
+                        <h3 class="popular-box-heading flexitem">Game Development <i
+                                class="fa-solid fa-arrow-up-right-from-square" id="heading-arrow"></i></h3>
+                        <p class="user-details flexitem">by<img src="assets/images/member-3.jpg" width="30"
+                                class="user-img" alt="">Vanesha gates</p>
+                        <p class="popular-box-description">
+                            Dive into the dynamic realm of game development with our immersive courses. From coding
+                            fundamentals to advanced design principles, discover the secrets behind creating captivating
+                            gaming experiences. Join us on a transformative learning adventure, where innovation and
+                            creativity converge to shape the future of interactive entertainment.
+                        </p>
+                    </div>
+
+                    <div class="popular-box">
+                        <span class="popular-head-secondary">14 52s Available</span>
+                        <h3 class="popular-box-heading flexitem">Motion Graphics <i
+                                class="fa-solid fa-arrow-up-right-from-square" id="heading-arrow"></i></h3>
+                        <p class="user-details flexitem">by<img src="assets/images/member-4.jpg" width="30"
+                                class="user-img" alt="">Milli Johnson</p>
+                        <p class="popular-box-description">
+                            Immerse yourself in the dynamic world of motion graphics, where creativity comes to life.
+                            Our courses blend artistry and technology, teaching you to design captivating visual
+                            narratives. Elevate your storytelling skills, mastering animation, effects, and cinematic
+                            techniques. Join us to turn static ideas into visually compelling, animated masterpieces.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn popular-btn flexitem">More Courses <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+        </section>
+
+        <!-- ============================================================ LEARN ============================================================ -->
+        <section class="learn section" id="learn">
+            <div class="learning-container container grid">
+                <img src="assets/images/about.jpg" alt="" class="learning-img">
+                <div class="learning-content">
+                    <h3 class="sub-heading">About Us</h3>
+                    <h2 class="section-title">Smart Learning, Bright Earning: Go Online!</h2>
+                    <p class="learning-description">
+                        1. Smart Learning: Embrace online education for personalized, accessible, and interactive
+                        learning experiences. Unlock knowledge from anywhere, anytime.
+                    </p>
+                    <p class="learning-description">
+                        2. Bright Earning: Seize online opportunities for career growth and financial success. Acquire
+                        skills, build expertise, and open doors to a prosperous future with flexible, online learning
+                        pathways.
+                    </p>
+                    <p class="learning-description">
+                        Embrace Smart Learning, Bright Earning: Go Online! Elevate your skills with flexible, accessible
+                        courses. Unleash your potential, shape a brighter future, and open doors to rewarding
+                        opportunities in the digital era.
+                    </p>
+                    <div class="learning-actions flexitem">
+                        <button class="btn">Explore More</button>
+                        <a href="#" class="learning-action-btn flexitem"><i class="fa-solid fa-circle-play"></i> Watch
+                            Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ MEMBERS ============================================================ -->
+        <section class="members section" id="members">
+            <div class="members-container container">
+                <h2 class="section-title border-bottom text-center">Meet With Our Team Members</h2>
+
+                <div class="swiper member-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="assets/images/member-1.jpg" class="members-image"></img>
+                            <div class="members-info">
+                                <h3 class="sub-heading">David Williams</h3>
+                                <p class="member-description">Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/member-3.jpg" class="members-image"></img>
+                            <div class="members-info">
+                                <h3 class="sub-heading">Sarah Bennett</h3>
+                                <p class="member-description">3d Desinger</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/member-2.jpg" class="members-image"></img>
+                            <div class="members-info">
+                                <h3 class="sub-heading">Marcus Davis</h3>
+                                <p class="member-description">Unity Game Developer</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/member-4.jpg" class="members-image"></img>
+                            <div class="members-info">
+                                <h3 class="sub-heading">Taylor Nguyen</h3>
+                                <p class="member-description">Java Developer</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/member-5.jpg" class="members-image"></img>
+                            <div class="members-info">
+                                <h3 class="sub-heading">Brandon Lewis</h3>
+                                <p class="member-description">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination flexitem"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ TESTIMONIALS ============================================================ -->
+        <section class="testimonials section" id="testimonials">
+            <div class="testimonial-container container">
+                <h2 class="section-title border-bottom testimonial-title text-center">What Our Students Says</h2>
+                <div class="testimonial-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-box flexitem">
+                                <div class="testimonial-box-data">
+                                    <div class="testimonial-user-image">
+                                        <img src="assets/images/user-2.jpg" width="100" height="100" alt=""
+                                            class="testimonial-user">
+                                    </div>
+                                    <p class="testimonial-name text-center">- Emily Rodriguez</p>
+                                    <p class="testimonial-info text-center">Transformative! <span
+                                            class="span">Learnify</span> exceeded my expectations. The diverse courses,
+                                        interactive content, and dedicated instructors empowered me to acquire valuable
+                                        skills. A game-changer for anyone committed to personal and professional growth.
+                                    </p>
+                                    <div class="testimonial-rating flexitem">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box flexitem">
+                                <div class="testimonial-box-data">
+                                    <div class="testimonial-user-image">
+                                        <img src="assets/images/user-1.png" width="100" alt="" class="testimonial-user">
+                                    </div>
+                                    <p class="testimonial-name text-center">- Alex Foster</p>
+                                    <p class="testimonial-info text-center">Exceptional learning experience! The courses
+                                        on <span class="span">Learnify</span> are engaging, well-structured, and
+                                        incredibly informative. The platform's user-friendly interface and expert
+                                        instructors make the journey enjoyable. Highly recommend for anyone seeking
+                                        quality online education.</p>
+                                    <div class="testimonial-rating flexitem">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box flexitem">
+                                <div class="testimonial-box-data">
+                                    <div class="testimonial-user-image">
+                                        <img src="assets/images/user-3.jpg" width="100" alt="" height="100"
+                                            class="testimonial-user">
+                                    </div>
+                                    <p class="testimonial-name text-center">- Jasmine Carter</p>
+                                    <p class="testimonial-info text-center">Discovering <span
+                                            class="span">Learnify</span> has been a revelation. The courses are not only
+                                        comprehensive but also presented in an engaging format. The personalized
+                                        learning journey, coupled with expert guidance, makes it a standout in online
+                                        education. An invaluable resource for anyone eager to learn and grow in the
+                                        digital age.</p>
+                                    <div class="testimonial-rating flexitem">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box flexitem">
+                                <div class="testimonial-box-data">
+                                    <div class="testimonial-user-image">
+                                        <img src="assets/images/user-4.jpg" width="100" height="100" alt=""
+                                            class="testimonial-user">
+                                    </div>
+                                    <p class="testimonial-name text-center">- Jason Thompson</p>
+                                    <p class="testimonial-info text-center">Empowering and enriching! <span
+                                            class="span">Learnify</span> is a beacon of quality education. The
+                                        platform's versatility, interactive courses, and expert instructors make
+                                        learning enjoyable and effective. Grateful for the invaluable skills gained. A
+                                        definite recommendation for those seeking a transformative educational journey.
+                                    </p>
+                                    <div class="testimonial-rating flexitem">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box flexitem">
+                                <div class="testimonial-box-data">
+                                    <div class="testimonial-user-image">
+                                        <img src="assets/images/user-5.jpg" width="100" height="100" alt=""
+                                            class="testimonial-user">
+                                    </div>
+                                    <p class="testimonial-name text-center">- Samantha Walker</p>
+                                    <p class="testimonial-info text-center">Exceptional learning journey! <span
+                                            class="span">Learnify</span> offers a wealth of knowledge in a user-friendly
+                                        format. The diverse courses, expert instructors, and interactive approach
+                                        fostered an engaging and enriching experience. Highly recommended for anyone
+                                        seeking a flexible and rewarding educational adventure.</p>
+                                    <div class="testimonial-rating flexitem">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next arrow" id="arrow-right">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-prev arrow" id="arrow-left">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ FAQs ============================================================ -->
+        <section class="faq section" id="faq">
+            <div class="faq-container container">
+                <h2 class="section-title text-center border-bottom">Question About Our Online Courses</h2>
+                <div class="accordion-container">
+                    <div class="accordion">
+                        <div class="question flexitem">
+                            <h4 class="faq-question">How does Learnify ensure the quality of its courses?</h4>
+                            <i class="fa-solid fa-chevron-down faq-icon" id="faq-icon"></i>
+                        </div>
+                        <div class="answer">
+                            <p class="accordion-answer">At Learnify, course quality is our priority. We collaborate with
+                                industry experts to design and update our curriculum, ensuring it aligns with the latest
+                                trends and standards. Our rigorous review process includes user feedback and continuous
+                                assessments. Rest assured, our commitment to providing high-quality, relevant content
+                                ensures an enriching learning experience for our users, preparing them for success in
+                                their chosen fields.</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="question flexitem">
+                            <h4 class="faq-question">How does Learnify stand out from other online learning platforms?
+                            </h4>
+                            <i class="fa-solid fa-chevron-down faq-icon" id="faq-icon"></i>
+                        </div>
+                        <div class="answer">
+                            <p class="accordion-answer">Learnify distinguishes itself through a combination of diverse,
+                                expert-curated content and an interactive learning environment. Our courses are crafted
+                                by industry professionals, ensuring real-world relevance. We prioritize user engagement
+                                with interactive elements, fostering a dynamic and effective learning experience.
+                                Additionally, personalized learning paths cater to individual needs. Continuous updates
+                                and feedback integration guarantee our content stays current. With a commitment to
+                                quality, flexibility, and innovation, we aim to empower learners, providing not just
+                                courses, but an immersive educational journey tailored for success in today's fast-paced
+                                world.</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="question flexitem">
+                            <h4 class="faq-question">What types of learning formats does Learnify offer?</h4>
+                            <i class="fa-solid fa-chevron-down faq-icon" id="faq-icon"></i>
+                        </div>
+                        <div class="answer">
+                            <p class="accordion-answer">Learnify offers a versatile array of learning formats, including
+                                video lectures, interactive quizzes, hands-on projects, and peer collaboration. This
+                                multi-faceted approach caters to diverse learning styles, ensuring an engaging and
+                                comprehensive educational experience. Whether you prefer visual demonstrations or
+                                hands-on practice, our platform adapts to your preferences, creating an inclusive and
+                                effective learning environment for all.</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="question flexitem">
+                            <h4 class="faq-question">How does Learnify ensure the accessibility of its courses for
+                                learners with different schedules?</h4>
+                            <i class="fa-solid fa-chevron-down faq-icon" id="faq-icon"></i>
+                        </div>
+                        <div class="answer">
+                            <p class="accordion-answer">At Learnify, we prioritize accessibility by offering on-demand
+                                courses. Learners have the flexibility to access materials at their convenience,
+                                accommodating various schedules. Additionally, our modular course structure allows for
+                                bite-sized learning, making it easy to integrate education into busy routines. We
+                                believe in providing a seamless learning experience for everyone, empowering individuals
+                                to pursue education on their terms without compromising their existing commitments.</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="question flexitem">
+                            <h4 class="faq-question">Can I get a refund if I'm unsatisfied with a course on Learnify?
+                            </h4>
+                            <i class="fa-solid fa-chevron-down faq-icon" id="faq-icon"></i>
+                        </div>
+                        <div class="answer">
+                            <p class="accordion-answer">Absolutely! We offer a satisfaction guarantee. If you're not
+                                content within the first 30 days of enrollment, we provide a full refund, no questions
+                                asked. We believe in the value of our courses and want learners to explore without
+                                hesitation, confident in the quality of education they'll receive on Learnify.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ NEWSLETTER ============================================================ -->
+        <section class="newsletter section" id="newsletter">
+            <div class="newsletter-container container">
+                <img src="assets/images/Shape-1.png" alt="" class="newsletter-shape-1">
+                <img src="assets/images/Shape-2.png" alt="" class="newsletter-shape-2">
+                <img src="assets/images/cubes.png" alt="" class="newsletter-shape-3">
+                <div class="newsletter-content">
+                    <h2 class="section-title text-center">Get Our News And Updates</h2>
+                    <p class="newsletter-description text-center">"Stay informed and inspired! Subscribe to our
+                        newsletter for the latest updates, exclusive content, and exciting opportunities. <br> Join a
+                        community passionate about learning and personal growth.</p>
+                    <div class="newsletter-input flexitem">
+                        <input type="email" class="input-box" placeholder="Enter Your Email" required>
+                        <button class="btn newsletter-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================ FOOTER ============================================================ -->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-grid-item footer-action">
+                <img src="assets/images/logo-light.png" width="200">
+                <p class="footer-description">Elevate your knowledge journey with Learnify. Learn, and grow together
+                    with us!</p>
+                <div class="footer-social-icons flexitem">
+                    <i class="fa-brands fa-instagram" id="social-icon"></i>
+                    <i class="fa-brands fa-linkedin-in" id="social-icon"></i>
+                    <i class="fa-brands fa-twitter" id="social-icon"></i>
+                    <i class="fa-brands fa-facebook" id="social-icon"></i>
+                </div>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-link-heading">Home</p>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Home</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Courses</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Press & Hours</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Partnership</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Business</a></li>
+                </ul>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-link-heading">Community</p>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Careers</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Resources</a></li>
+                    <li><a href="#testimonials" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Testimonials</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Courses</a></li>
+                </ul>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-link-heading">Privacy Policy</p>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Terms of Service</a></li>
+                    <li><a href="#faq" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>FAQs</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Support</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Contact Us</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Business</a></li>
+                    <li><a href="#" class="footer-link flexitem"><i class="fa-solid fa-chevron-right"
+                                id="footer-arrow-icon"></i>Careers</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom text-center">
+        <div class="footer-copy">
+            <p class="footer-info">&copy; Made with <i class="fa-solid fa-heart" id="heart-icon"></i> by Dev Sethi</p>
+        </div>
+    </div>
+
+    <!-- ============================================================ SCROLL UP ============================================================ -->
+    <div class="scrollup-btn">
+        <a href="#"><i class="fa-solid fa-arrow-up scroll-up" id="scroll-up"></i></a>
+    </div>
+    <!-- =================================================================
+                              Swiper JS CDN
+    ================================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- =================================================================
+                            GSAP & SCROLLTRIGGER CDN
+    ================================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+        integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"
+        integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- =================================================================
+                            Link Custom JS File
+    ================================================================== -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
