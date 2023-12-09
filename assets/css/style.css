@@ -1062,18 +1062,12 @@ h4 {
   }
   .newsletter-btn {
     padding: 12px 25px;
-    background: var(--secondary-color);
-    border-radius: var(--border-radius-1);
     font-size: var(--small-font-size);
   }
   .input-box {
     width: 120%;
-    background: #ffffff14;
-    backdrop-filter: blur(20px);
     padding: 12px 25px;
     font-size: var(--normal-font-size);
-    border-radius: var(--border-radius-1);
-    color: var(--body-color);
   }
   .newsletter-input {
     width: 100%;
