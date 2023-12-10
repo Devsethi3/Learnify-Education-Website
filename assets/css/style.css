@@ -197,7 +197,7 @@ h4 {
   top: 0;
   left: 0;
   background: var(--body-color);
-  z-index: 60;
+  z-index: 1000;
   transition: var(--transition-3);
 }
 /* Show Header */
@@ -1098,7 +1098,7 @@ h4 {
     font-size: 1rem;
   }
   .login-content {
-    margin-top: 0rem;
+    margin-top: 2rem;
   }
   .login-mt {
     margin-top: 2rem;
